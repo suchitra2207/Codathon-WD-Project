@@ -1,0 +1,119 @@
+
+p{font-family: Roboto;
+font-size: 16px;}
+body{
+        max-width:1000px;
+        font-family:Roboto;
+        font-size:16px;
+        
+        }
+
+        h4{
+            font: italic small-caps bolder 28px arial, sans-serif;
+        }
+        div{
+            border:none;
+            margin-top:5px;
+            padding:20px;
+        }
+        #content
+        {
+            background-color: rgba(0,0,0,0.7);
+            max-width:450px;
+            padding:30px 20px;
+            margin-top:50px;
+        }
+        #images
+        {
+            float: left;
+            padding: 0px 20px 20px 20px;
+        }
+        #identity{
+            overflow:auto;
+        }
+        #background-image{
+            background-image:url("images/86f9bfb40c.jpg");
+            height: 350px;
+            padding-top: 50px;
+            color: #fff;
+            margin-top: 25px;
+        }
+        table{
+            border: 1px solid;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th,td{padding: 15px;
+              border: 1px solid #a4a4a4;
+              height: 30px;
+            
+        }
+        th{
+            text-allign:left;
+            
+        }
+        .thumbnail {
+    display: inline-block;
+
+    height: auto;
+
+    padding: 4px;
+
+    margin-bottom: 20px;
+
+    background-color: #fff;
+
+    border: 1px solid #a4a4a4;
+
+    text-align: center;
+
+    color: #666;
+
+    margin: 50px;
+
+}
+ 
+        nav{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            
+        }
+        li {
+            list-style-type: none;
+            display: inline;
+        }
+        a {
+            display: block;
+            color: #666;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: right;
+        }
+        .logo{
+            float:left;
+            height: 5px;
+            display: inline;
+        }
+        #header
+        {
+            padding: 0px 0px 10px 0px;
+            border-bottom: 1px solid;
+            height: 70px;
+            padding-bottom: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border-bottom: 1px solid;
+            
+        }
+        .container{
+            padding: 20px;
+            margin: auto;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        @media (min-width: 320 px) { .container { width:320px;}}
+        @media (min-width: 481 px) { .container { width:481px;}}
+        @media (min-width: 641 px) { .container { width:641px;}}
+        @media (min-width: 961 px) { .container { width:961px;}}
+        
